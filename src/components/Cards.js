@@ -19,6 +19,11 @@ function Cards() {
                         label="website" 
                         path="https://learnenglishwithleah.com/">
                         </CardItem>
+                        <CardItem src="images/weather.png" 
+                        text="Weather Report" 
+                        label="mobile site" 
+                        path="https://weather-report-htre2s9vo-ldw510.vercel.app/">
+                        </CardItem>
                     </ul>
                 </div>
             </div>

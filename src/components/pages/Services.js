@@ -11,8 +11,8 @@ function Services () {
         credible and user-friendly approach with a focus on cost-effectiveness specific to your brand goals.
         Communication is key during this process and I am very easy to reach on multiple platforms.
         Price is affected by the size and needs of each site.</p>
-        <p>Please contact me for more information.</p> 
-        <p><br/>EMAIL: liam.wallace@hotmail.co.uk <br/> PHONE NO: +385 976202725 </p>
+        <p>Please contact me for more information. <br/>
+        EMAIL: liam.wallace@hotmail.co.uk <br/> PHONE NO: +385 976202725 </p>
       </div>
       <Footer />
     </>
