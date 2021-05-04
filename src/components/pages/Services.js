@@ -1,20 +1,45 @@
 import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
+import Steps from '../Steps';
+import { useTranslation } from "react-i18next";
+import Testimonials from '../Testimonials';
+
+
+
 
 function Services () {
+  
+  const { t, i18n } = useTranslation();
+
+  const onChange = (event) => {
+      i18n.changeLanguage(event.target.value)
+  };
+  
     return (
     <>
-      <div className="services-container">
-        <h1>SERVICES</h1>  
-        <p>I create web-sites and applications for small businesses or start-ups. I can offer a
-        credible and user-friendly approach with a focus on cost-effectiveness specific to your brand goals.
-        Communication is key during this process and I am very easy to reach on multiple platforms.
-        Price is affected by the size and needs of each site.</p>
-        <p>Please contact me for more information. <br/>
-        EMAIL: liam.wallace@hotmail.co.uk <br/> PHONE NO: +385 976202725 </p>
+        <div className="container1" >
+        <div className="container1-text">
+        <h1>{t('services')}</h1>  
+        </div>
+        <div className="container1-image">
+          <img className="ImageAbout2" src="images/services.jpg" alt="Kiropractor" />
+        </div>
+      <div className="container1-desc">
+        <h1>{t('workinghours')}</h1>
+        <p>
+        {t('monday')}<br/>
+        {t('tuesday')}<br/>
+        {t('wednesday')}<br/>
+        {t('thursday')}<br/>        
+        {t('friday')}<br/>        
+        {t('saturday')}<br/>
+        {t('sunday')}<br/>        
+        </p>
       </div>
-      <Footer />
+    </div>
+    <Testimonials/>
+    <Footer />
     </>
     )
 }

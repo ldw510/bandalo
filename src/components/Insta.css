@@ -1,0 +1,74 @@
+.insta-container1 {
+        height: 100%;
+        width: 100%;
+        background-color: #fff;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        color:#1DAFEC;
+        padding: 50px;
+        display: flex;
+}
+
+.insta-container2 {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    color: rgb(32, 32, 32);
+    padding: 50px;
+    display: none;
+}
+
+.insta-container1, .insta-container2 > h1 {
+    text-align: center;
+    color: #1DAFEC;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.snapwidget-widget-website {
+    height: 500px;
+    width: 800px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .insta-container1 {
+        height: 100%;
+        width: 100%;
+        background-color: #fff;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        color: rgb(32, 32, 32);
+        padding: 50px;
+        display: none;
+}
+
+.insta-container2 {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    color: rgb(32, 32, 32);
+    padding: 50px;
+}
+
+.snapwidget-widget-mobile {
+    height: 800px;
+    width: 300px;
+}
+
+
+
+}

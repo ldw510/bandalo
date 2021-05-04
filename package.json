@@ -1,15 +1,19 @@
 {
-  "homepage": ".",
-  "name": "portfolio-site",
+  "homepage": "https://github.com/ldw510/bandalo.git",
+  "name": "bandalo-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@formspree/react": "^2.2.3",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.1",
     "autoprefixer": "^10.2.4",
+    "i18n": "^0.13.2",
+    "i18next": "^20.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-i18next": "^11.8.12",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "web-vitals": "^1.1.0"

@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(77, 67, 67) 100%);
+    background: white;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -17,28 +17,55 @@
     height: 80px;
     max-width: 1500px;
   }
-  
-  .navbar-logo {
-    color: #ffffff;
-    justify-self: start;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
+
+  .nav-logo {
+    height: 60px;
+    width: 60px;
+    background-image: url("../images/logo.svg");
+    background-position: center;
+    object-fit: contain;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
   }
   
   .fas fa-greater-than, .fas fa-less-than {
     font-size: 10px;
   }
+
+a {
+  color:#1DAFEC;
+  padding-left: 10px;
+  }
+
+a:visited {
+  color:#1DAFEC;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
   
   .nav-menu {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 60vw;
+    width: 75vw;
     justify-content: end;
     margin-right: 2rem;
   }
@@ -48,7 +75,7 @@
   }
   
   .nav-links {
-    color: #fff;
+    color: #1DAFEC;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -57,16 +84,27 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid #1DAFEC;
     transition: all 0.2s ease-out;
   }
   
   .fa-bars {
-    color: #fff;
+    color: #1DAFEC;
   }
   
   .nav-links-mobile {
     display: none;
+  }
+
+  .lang-btn {
+    height: 40px;
+    position: absolute;
+    left: 95%;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   }
   
   .menu-icon {
@@ -78,16 +116,6 @@
       position: relative;
     }
 
-    .navbar-logo {
-      color: #ffffff;
-      justify-self: start;
-      cursor: pointer;
-      text-decoration: none;
-      font-size: 1.5rem;
-      display: flex;
-      align-items: center;
-      margin-top: 2%;
-    }
   
     .nav-menu {
       display: flex;
@@ -102,7 +130,7 @@
     }
   
     .nav-menu.active {
-      background: #242222;
+      background: #fff;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -117,8 +145,8 @@
     }
   
     .nav-links:hover {
-      background-color: #fff;
-      color: #242424;
+      background-color: #1DAFEC;
+      color: #FFF;
       border-radius: 0;
     }
   
@@ -140,7 +168,7 @@
     }
   
     .fa-times {
-      color: #fff;
+      color: #1DAFEC;
       font-size: 2rem;
     }
   
@@ -153,15 +181,27 @@
       text-decoration: none;
       font-size: 1.5rem;
       background-color: transparent;
-      color: #fff;
+      color: #FFF;
       padding: 14px 20px;
-      border: 1px solid #fff;
+      border: 1px solid #1DAFEC;
       transition: all 0.3s ease-out;
     }
   
     .nav-links-mobile:hover {
-      background: #fff;
-      color: #242424;
+      background: #111;
+      color: #FFF;
       transition: 250ms;
+    }
+
+    .lang-btn {
+      height: 40px;
+      position:relative;
+      left: 0%;
+      text-align: center;
+      margin: 2rem auto;
+      border-radius: 4px;
+      width: 20%;
+      text-decoration: none;
+      font-size: 1.5rem;
     }
   }
