@@ -23,15 +23,7 @@ function Contact () {
         <div className=" bg-bandalo-blue py-16" >
         <h1 className='text-white text-6xl font-bold uppercase  w-5/6 mx-auto'>{t('contact')}</h1>
         </div>
-        <div className="w-5/6 mx-auto">
-  
-        <p><br/>
-        HR | PUT BRODARICE 6, <br/>
-21000 Split <br/>
-| + 385 (99) 3220 225 <br/>
-info@bandalokiropraktikasplit.com <br/>
- </p>
- </div>
+        
         </div>
 
         <section className="hero ">
@@ -69,6 +61,15 @@ info@bandalokiropraktikasplit.com <br/>
         <div className="map">
         <iframe width="320" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=Bandalo%20Kiropraktika%20Split+(Bandalo%20Kiropraktika%20Split)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/draw-radius-circle-map/"></a>
         </div>
+        <div className="w-5/6 mx-auto">
+  
+        <p><br/>
+        HR | PUT BRODARICE 6, <br/>
+21000 Split <br/>
+| + 385 (99) 3220 225 <br/>
+info@bandalokiropraktikasplit.com <br/>
+ </p>
+ </div>
 
         
       <div>
