@@ -5,10 +5,12 @@ import './Cards.css'
 function Cards() {
     return (
         <div className="cards">
-            <h1>Our Partners</h1>
+            <div className="w-5/6 mx-auto py-12">
+                <h1 className='text-bandalo-blue text-6xl font-bold uppercase'>OUR PARTNERS</h1>
+            </div>
             <div className="cards__container">
                 <div className="cards__wrapper">
-                    <ul className="cards__items">
+                    <ul className="grid md:grid-cols-2 lg:grid-cols-5">
                         <CardItem src="images/nada-rugby.png" 
                         path="https://www.nada-rugby.hr/">
                         </CardItem>

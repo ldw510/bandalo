@@ -14,18 +14,22 @@ function AboutUs () {
   };
     return (
       <>
-      <div className="container1" >
-        <div className="container1-text">
-        <h1>{t('about')}</h1>  
-        <p>{t('about-slogan')}</p>
+      <div className="w-5/6 mx-auto" >
+      <h1 className='text-bandalo-blue text-6xl font-bold uppercase py-12'>Dr Miro Bandalo</h1>
+
+        <div className="grid lg:grid-cols-2 gap-12 py-6">
+        <div className="">
+
+          <p className='text-xl'>{t('about-text')}</p>
         </div>
-        <div className="container1-image">
-          <img className="ImageAbout" src="images/Bandalo1.jpg" alt="Kiropractor"/>
+
+
+        <div className="">
+          <img className="" src="images/Bandalo1.jpg" alt="Kiropractor"/>
         </div>
-        <div className="container1-desc">
-          <h1>Dr Miro Bandalo</h1>
-          <p>{t('about-text')}</p>
         </div>
+
+        
       </div>
       <div>
         <Footer />

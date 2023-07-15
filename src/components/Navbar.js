@@ -65,11 +65,7 @@ function Navbar() {
                         {t('contact')}
                         </Link>
                     </li>
-                    <li className='nav-item'>
-                        <a href='https://drbandalo.wordpress.com/' className="nav-links" onClick={closeMobileMenu}>
-                        {t('BLOG')}
-                        </a>
-                    </li>
+                    
                     <select className="lang-btn" name="language" onChange={onChange}>
                       <option value="hr">HR</option>
                       <option value="en">EN</option>
