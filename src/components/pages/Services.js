@@ -18,60 +18,84 @@ function Services() {
 
   return (
     <>
+    <div className=" bg-bandalo-blue py-16" >
+        <h1 className='text-white text-6xl font-bold uppercase  w-5/6 mx-auto'>{t('services')}</h1>
+        </div>
       <div className="w-5/6 mx-auto" >
-        <h1 className='text-bandalo-blue text-6xl font-bold uppercase py-12'>{t('services')}</h1>
 
         <div className="grid lg:grid-cols-2 py-12">
-          <ul className='text-xl lg:text-2xl'>
-            <li>
-              Kiropraktički pregled - 60 €
-            </li>
-            <li>Kiropraktički tretman - 40 €
-            </li>
-            <li>Kontrolni pregled - 15 €
-            </li>
-            Recovery Room
+        <table class="table-auto w-full text-sm text-left text-black text-xl lg:text-2xl dark:text-gray-400">
+            <thead>
+              <tr>
+                <th scope="col" class="px-6 py-3">Service</th>
+                <th scope="col" class="px-6 py-3">Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 px-6 py-4 font-semibold"><td class="px-6 py-4">Recovery Room</td></tr>
+              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <td class="px-6 py-4">Kiropraktički pregled</td>
+                <td class="px-6 py-4">60 €</td>
+              </tr>
+              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <td class="px-6 py-4">Kiropraktički tretman</td>
+                <td class="px-6 py-4">40 €</td>
+              </tr>
+              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <td class="px-6 py-4">Kontrolni pregled</td>
+                <td class="px-6 py-4">15 €</td>
+              </tr>
+              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 px-6 py-4 font-semibold"><td class="px-6 py-4">Medicinska masaža</td></tr>
+              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
 
-            Medicinska masaža
-            <li>
-              Parcijalna 60 min - 30 €
+                <td class="px-6 py-4">Parcijalna 60 min</td>
+                <td class="px-6 py-4">30 €</td>
+                </tr>
+                
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <td class="px-6 py-4">Cijelo tijelo 60 min</td>
+                <td class="px-6 py-4">35 €</td>
+              </tr>
 
-            </li>
-            <li>Cijelo tijelo 60 min - 35 €
+              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <td class="px-6 py-4">Cijelo tijelo 90 min</td>
+                <td class="px-6 py-4">45 €</td>
+              </tr>
+              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 px-6 py-4 font-semibold"><td class="px-6 py-4">Sportska masaža</td></tr>
+              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
 
-            </li>
-            <li>Cijelo tijelo 90 min - 45 €
+                <td class="px-6 py-4">Parcijalna 60 min</td>
+                <td class="px-6 py-4">35 €</td>
+                </tr>
+                
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <td class="px-6 py-4">Cijelo tijelo 60 min</td>
+                <td class="px-6 py-4">40 €</td>
+              </tr>
 
-            </li>
-
-
-            Sportska masaža
-            <li>
-              Parcijalna 60 min - 35 €
-
-
-            </li>
-            <li>Cijelo tijelo 60 min - 40 €
-
-
-            </li>
-            <li>Cijelo tijelo 90 min - 50 €
-
-
-            </li>
-
-
-          </ul>
+              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <td class="px-6 py-4">Cijelo tijelo 90 min</td>
+                <td class="px-6 py-4">50 €</td>
+              </tr>
+             
+            </tbody>
+          </table>
 
           <img className="ImageAbout2" src="images/services.jpg" alt="Kiropractor" />
 
 
         </div>
+        </div>
+
 
 
 
         <div className='mx-auto py-12'>
-          <h4 className='text-bandalo-blue text-6xl font-bold uppercase py-12'>{t('workinghours')}</h4>
+        <div className=" bg-bandalo-blue py-16" >
+        <h1 className='text-white text-6xl font-bold uppercase  w-5/6 mx-auto'>{t('workinghours')}</h1>
+        </div>
+        <div className="w-5/6 mx-auto py-16" >
+
 
           <table class="table-auto w-full text-sm text-left text-black text-xl lg:text-2xl dark:text-gray-400">
             <thead>
@@ -111,8 +135,7 @@ function Services() {
               </tr>
             </tbody>
           </table>
-        </div>
-
+          </div>
 
       </div>
       <Footer />

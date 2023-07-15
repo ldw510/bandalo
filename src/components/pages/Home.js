@@ -13,7 +13,6 @@ function Home () {
           <Hero />
           <Steps />
           <Cards/>
-          <Insta />
           <Footer />
         </>
     )

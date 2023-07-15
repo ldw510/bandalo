@@ -70,6 +70,7 @@ a:active {
     margin-right: 2rem;
   }
   
+  
   .nav-item {
     height: 80px;
   }
@@ -126,6 +127,7 @@ a:active {
       top: 80px;
       left: -100%;
       opacity: 1;
+      justify-content: start;
       transition: all 0.5s ease;
     }
   
