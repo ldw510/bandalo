@@ -63,7 +63,7 @@ function Contact () {
 
 <div className="">
   
-  <p className='font-semibold px-4 text-2xl'><br/>
+  <p className='font-semibold px-4 text-lg'><br/>
   HR | PUT BRODARICE 6, <br/>
 21000 Split <br/>
 <a className='p-0 hover:underline' href="tel:099 3220 225">+385 (99) 3220 225</a><br/>
