@@ -58,18 +58,25 @@ function Contact () {
 </div>
 </div>
 </section>
+
+<div className='mx-auto w-5/6 md:w-4/6 grid md:grid-cols-2'>
+
+<div className="">
+  
+  <p className='font-semibold px-4 text-2xl'><br/>
+  HR | PUT BRODARICE 6, <br/>
+21000 Split <br/>
+<a className='p-0 hover:underline' href="tel:099 3220 225">+385 (99) 3220 225</a><br/>
+<a className='p-0 hover:underline' href="mailto:info@bandalokiropraktikasplit.com">info@bandalokiropraktikasplit.com</a> <br/>
+</p>
+</div>
+
         <div className="map">
         <iframe width="320" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=Bandalo%20Kiropraktika%20Split+(Bandalo%20Kiropraktika%20Split)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/draw-radius-circle-map/"></a>
         </div>
-        <div className="w-5/6 mx-auto">
-  
-        <p><br/>
-        HR | PUT BRODARICE 6, <br/>
-21000 Split <br/>
-| + 385 (99) 3220 225 <br/>
-info@bandalokiropraktikasplit.com <br/>
- </p>
+       
  </div>
+
 
         
       <div>
