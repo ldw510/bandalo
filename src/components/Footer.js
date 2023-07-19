@@ -18,10 +18,8 @@ function Footer() {
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <a href="tel:099 3220 225">099 3220 225</a>
-                        <a>info@bandalokiropraktikasplit.com</a>
                         <a href='/services'>{t('testimonials')}</a>
                         <Link to='/contact'>{t('Kontakt')}</Link>
-                        <a to='/'>Terms and Conditions</a>
                     </div>
                     <div class="footer-links">
                       <a href="https://web.facebook.com/bandalokiropraktikasplit/" class="fa fa-facebook"></a>
