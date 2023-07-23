@@ -30,12 +30,12 @@ function Contact () {
           <div className="bg-bandalo-blue py-20">
           <div className="bg-background w-5/6 md:w-4/6 mx-auto bg-opacity-70">
   <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-      <p className="mb-8 lg:mb-16 font-light text-center text-white text-xl">Send us a message if you'd like more info.</p>
+      <p className="mb-8 lg:mb-16 font-light text-center text-white text-xl">{t('contact-info')}</p>
 
 
   <div  className="w-5/6 mx-auto">
 
-  <form action=""
+  <form action="https://formspree.io/f/moqovplw"
   method="POST" className="space-y-8">
 
 

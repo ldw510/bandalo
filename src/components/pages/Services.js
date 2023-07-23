@@ -27,8 +27,8 @@ function Services() {
         <table class="table-auto w-full text-sm text-left text-black text-xl lg:text-2xl dark:text-gray-400">
             <thead>
               <tr>
-                <th scope="col" class="px-6 py-3">Service</th>
-                <th scope="col" class="px-6 py-3">Cost</th>
+                <th scope="col" class="px-6 py-3">Usluga</th>
+                <th scope="col" class="px-6 py-3">Cijena</th>
               </tr>
             </thead>
             <tbody>
