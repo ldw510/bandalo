@@ -32,7 +32,6 @@ function Services() {
               </tr>
             </thead>
             <tbody>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 px-6 py-4 font-semibold"><td class="px-6 py-4">Recovery Room</td></tr>
               <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <td class="px-6 py-4">Kiropraktički pregled</td>
                 <td class="px-6 py-4">60 €</td>
@@ -45,6 +44,7 @@ function Services() {
                 <td class="px-6 py-4">Kontrolni pregled</td>
                 <td class="px-6 py-4">15 €</td>
               </tr>
+              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 px-6 py-4 font-semibold"><td class="px-6 py-4">Recovery Room</td></tr>
               <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 px-6 py-4 font-semibold"><td class="px-6 py-4">Medicinska masaža</td></tr>
               <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
 
